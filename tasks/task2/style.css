@@ -12,7 +12,6 @@ h1{
 }
 form{
     text-align: left;
-    text-align-left: 100px;
     background-image: linear-gradient(to right, #2fa4c5 0%, #e4eaf2 100%);
     text-shadow: 2px 2px 5px grey;
     font-family: Arial, Helvetica, sans-serif;
