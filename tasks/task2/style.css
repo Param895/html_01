@@ -1,0 +1,18 @@
+body{
+    background-image: linear-gradient(to right, #0f8896 0%, #2f2275 100%);
+}
+h1{
+    text-align: center;
+    font-size: 32px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(23, 18, 9);
+    background-color: rgb(212, 212, 160);
+}
+form{
+    text-align: center;
+    background-image: linear-gradient(to right, #325964 0%, #4176bf 100%);
+    text-shadow: 2px 2px 5px grey;
+    font-family:monospace;
+    font-size: 25px;
+}
