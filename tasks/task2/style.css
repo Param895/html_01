@@ -1,18 +1,45 @@
 body{
-    background-image: linear-gradient(to right, #0f8896 0%, #2f2275 100%);
+    background-image: linear-gradient(to right, #262728 0%, #2f2275 100%);
 }
 h1{
     text-align: center;
     font-size: 32px;
     text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 5px grey;
     color: rgb(23, 18, 9);
-    background-color: rgb(212, 212, 160);
+    background-color: rgb(245, 245, 243);
 }
 form{
-    text-align: center;
-    background-image: linear-gradient(to right, #325964 0%, #4176bf 100%);
+    text-align: left;
+    text-align-left: 100px;
+    background-image: linear-gradient(to right, #93999b 0%, #4176bf 100%);
     text-shadow: 2px 2px 5px grey;
-    font-family:monospace;
-    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+label{
+    margin-left: 42px;
+}
+
+p{
+    margin-left: 42px;
+}
+
+textarea{
+    margin-left: 42px;
+}
+
+input[type="submit"]{
+    margin-left: 42px;
+}
+
+img{
+    display: block;
+    float: right;
+    margin-left: auto;
+    margin-right: 42px;
+    border: 2px solid black;
+    border-radius: 10px;
 }

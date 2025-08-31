@@ -7,8 +7,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body style="align-items: center;">
+    <h1>Student Admission Form</h1>
+    <br>
     <form>
-        <h1>Student Inquiry Form</h1>
+        <br>
+        <!-- inested image -->
+         <img src="./photo.jpeg" alt="courses" width="720" >
         <!-- Filling essential information -->
         <label for="fname">First Name : </label> 
         <input type="text" id="fname" name="fname" placeholder="Enter your first name" required>
@@ -19,6 +23,7 @@
         <label for="email">Email ID  :</label> 
         <input type="email" id="email" name="emailid" placeholder="Enter your email" required>
         <br>
+        
         <!-- Selecting Gender -->
         <p>Select Your <b>Gender </b> : </p>
         <label for="Male"> Male</label>
@@ -28,19 +33,19 @@
         <label for="Male"> Other </label>
         <input type="radio" id="Gender" name="Gender" value="Other">
         <br>
+        
         <!-- Selecting Colors -->
-        <p>Select <b>Any Two</b> Colors : </p>
+        <p><b>Select Department You are Interested </b></p>
 
-        <label for="red">RED</label>
+        <label for="red">Pharmacy</label>
         <input type="checkbox" id="red" name="color1" value="red">
-        <label for="yellow">YELLOW</label>
+        <label for="yellow">Information Technology</label>
         <input type="checkbox" id="yellow" name="color2" value="yellow">
-        <label for="blue">BLUE</label>
+        <label for="blue">Enginnering</label>
         <input type="checkbox" id="blue" name="color3" value="blue">
-        <label for="green">GREEN</label>
+        <label for="green">Hotel Management</label>
         <input type="checkbox" id="green" name="color4" value="green">
-        <label for="other">OTHER</label>
-        <input type="checkbox" id="other" name="color5" value="other">
+        
         <br> <br>
         <!-- Giving any suggestion -->
         <b><p>Any Suggestions/Comments : </p></b>
@@ -48,6 +53,7 @@
         <br>
 
         <input type="submit" value="Submit">
+        <br><br>
     </form>
 </body>
 </html>
